@@ -109,6 +109,7 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
     npm run build
 
 **Run the tests**
+
     npm run test -- --coverage
 
 
