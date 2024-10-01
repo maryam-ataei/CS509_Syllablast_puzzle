@@ -46,6 +46,7 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
     ```bash
     npx create-next-app@latest
 
+
     Once created, install the latest versions of Next.js, React, and React DOM:
 
     ```bash
