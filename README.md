@@ -47,7 +47,7 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
     npx create-next-app@latest
       ```
     
-Once created, install the latest versions of Next.js, React, and React DOM:
+   Once created, install the latest versions of Next.js, React, and React DOM:
 
     npm install next@latest react@latest react-dom@latest
 
@@ -58,12 +58,14 @@ Once created, install the latest versions of Next.js, React, and React DOM:
     ```bash
     npm install -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom 
 
-Installing canvas
-If you have a Canvas element into which you are drawing, then for testing you need to install a special
-canvas module.
-    ```bash
-    npm install canvas
-    
+      ```
+   Installing canvas
+   If you have a Canvas element into which you are drawing, then for testing you need to install a special
+   canvas module.
+   
+       ```bash
+       npm install canvas
+       
 Note that this is only required if you have Canvas.
 
 5. **Configure Vitest**
