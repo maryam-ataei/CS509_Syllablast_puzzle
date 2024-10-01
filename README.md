@@ -80,7 +80,7 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
         "test": "vitest"
       }
 
-Create a vitest.config.ts file in the root directory of your project and add the following configuration:
+   Create a vitest.config.ts file in the root directory of your project and add the following configuration:
 
 
     import { defineConfig } from 'vitest/config';
@@ -98,7 +98,7 @@ Create a vitest.config.ts file in the root directory of your project and add the
       },
     });
 
-##Running the Application
+## Running the Application
 
 Start the development server
 
