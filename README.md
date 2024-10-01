@@ -62,11 +62,10 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
    Installing canvas
    If you have a Canvas element into which you are drawing, then for testing you need to install a special
    canvas module.
-   
-       ```bash
+
        npm install canvas
        
-Note that this is only required if you have Canvas.
+   Note that this is only required if you have Canvas.
 
 5. **Configure Vitest**
 
