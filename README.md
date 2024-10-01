@@ -78,25 +78,25 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
         "start": "next start",
         "lint": "next lint",
         "test": "vitest"
-      }```
+      }
 
 Create a vitest.config.ts file in the root directory of your project and add the following configuration:
 
     ```bash
     import { defineConfig } from 'vitest/config';
-import react from '@vitejs/plugin-react';
+    import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    coverage: {
-      provider: 'v8',
-      reporter: ['text', 'json', 'html'],
-    },
-  },
-});
+    export default defineConfig({
+      plugins: [react()],
+      test: {
+        globals: true,
+        environment: 'jsdom',
+        coverage: {
+          provider: 'v8',
+          reporter: ['text', 'json', 'html'],
+        },
+      },
+    });
 
 ##Running the Application
 
