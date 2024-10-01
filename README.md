@@ -73,12 +73,12 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
     
     ```bash
     "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "test": "vitest"
-}
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "vitest"
+      }```
 
 Create a vitest.config.ts file in the root directory of your project and add the following configuration:
 
