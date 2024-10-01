@@ -100,22 +100,19 @@ Syllablast is a solitaire puzzle game where players rearrange syllables in a 4x4
 
 ## Running the Application
 
-Start the development server
+**Start the development server**
 
-    ```bash
     npm run dev
 
-Build the project for production
+**Build the project for production**
     
-    ```bash
     npm run build
 
-Run the tests
-    ```bash
+**Run the tests**
     npm run test -- --coverage
 
 
-##Gameplay Instructions
+## Gameplay Instructions
 1. Choose one of the three configurations.
 2. Swap syllables by clicking two syllables on the board.
 3. The score updates based on the number of correct consecutive syllables starting from the first column in each row.
