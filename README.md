@@ -51,7 +51,8 @@ Once created, install the latest versions of Next.js, React, and React DOM:
 
     ```bash
     npm install next@latest react@latest react-dom@latest
-   ```
+      ```
+
 4. **Install Testing Libraries**
 
     To set up the testing environment with Vitest and related libraries, run:
